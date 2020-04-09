@@ -1,25 +1,15 @@
-import React from 'react'
-import AnchorLink from 'react-anchor-link-smooth-scroll'
-import { Container, Button } from 'components/common'
-import dev from 'assets/illustrations/skills.svg'
-import { Wrapper, SkillsWrapper, Details, Thumbnail } from './styles'
+import React from 'react';
+import AnchorLink from 'react-anchor-link-smooth-scroll';
+import { Container, Button } from 'components/common';
+import dev from 'assets/illustrations/skills.svg';
+import { SkillsWrapper, SkillsHeading, SkillsDetails } from './styles';
 
 export const Skills = () => (
-  <Wrapper id="about">
-    <SkillsWrapper as={Container}>
-      <Thumbnail>
-        <img src={dev} alt="I’m John and I’m a Backend & Devops engineer!" />
-      </Thumbnail>
-      <Details>
-        <h1>Hi There!</h1>
-        <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry’s standard dummy.
-        </p>
-        <Button as={AnchorLink} href="#contact">
-          Hire me
-        </Button>
-      </Details>
-    </SkillsWrapper>
-  </Wrapper>
-)
+  <SkillsWrapper id="skills">
+    <SkillsHeading>Skills</SkillsHeading>
+    <SkillsDetails>
+      <p>These are some of the core technologies I use to craft my work:</p>
+      <p>HTML5 / CSS3 / Sass / JavaScript / React / Node / Next.js / Gatsby / Eslint / RESTful APIs</p>
+    </SkillsDetails>
+  </SkillsWrapper>
+);

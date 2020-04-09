@@ -1,4 +1,10 @@
-import { createGlobalStyle } from 'styled-components';
+import styled, { createGlobalStyle } from 'styled-components';
+
+export const WrapperBody = styled.div`
+  max-width: 960px;
+  margin: 0 auto;
+  width: 95%;
+`;
 
 export const Global = createGlobalStyle`
   html {

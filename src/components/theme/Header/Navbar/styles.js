@@ -7,6 +7,7 @@ export const Wrapper = styled.div`
   justify-content: space-between;
 
   a {
-    color: #212121;
+    color: #ffffff;
+    font-family: Montserrat;
   }
 `;

@@ -13,7 +13,6 @@ export const Wrapper = styled.div`
 
 export const Details = styled.div`
   flex: 1;
-  padding-right: 2rem;
 
   @media (max-width: 960px) {
     padding-right: unset;
@@ -24,7 +23,9 @@ export const Details = styled.div`
   h1 {
     margin-bottom: 2rem;
     font-size: 26pt;
+    font-family: Montserrat;
     color: #212121;
+    text-align: center;
   }
 
   p {
