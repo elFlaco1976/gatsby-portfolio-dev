@@ -1,8 +1,8 @@
 module.exports = {
   defaultTitle: 'Web Developer',
-  logo: 'https://portfolio.smakosh.com/favicon/favicon-512.png',
+  logo: '',
   author: 'Francisco Collazos',
-  url: 'https://todo',
+  url: 'https://www.franciscodev.com',
   legalName: 'Francisco Collazos',
   defaultDescription: 'I’m Francisco and I’m a web developer!',
   socialLinks: {

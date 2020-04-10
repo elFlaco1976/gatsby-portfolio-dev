@@ -6,7 +6,7 @@ import { Button, Input } from 'components/common';
 import { Error, Center, InputField } from './styles';
 
 const ContactForm = ({ setFieldValue, isSubmitting, values, errors, touched }) => {
-  console.log(`env test: ${process.env.TEST_KEY}`);
+  console.log(`env test: ${process.env.GATSBY_TEST_KEY}`);
   return (
     <Form
       name="portfolio-dev"
@@ -58,7 +58,7 @@ const ContactForm = ({ setFieldValue, isSubmitting, values, errors, touched }) =
         <InputField>
           <FastField
             component={Recaptcha}
-            sitekey={process.env.SITE_RECAPTCHA_KEY}
+            sitekey={process.env.GATSBY_SITE_RECAPTCHA_KEY}
             name="recaptcha"
             onChange={value => setFieldValue('recaptcha', value)}
           />
