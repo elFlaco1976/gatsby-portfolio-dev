@@ -8,8 +8,11 @@ export const Skills = () => (
   <SkillsWrapper id="skills">
     <SkillsHeading>Skills</SkillsHeading>
     <SkillsDetails>
-      <p>These are some of the core technologies I use to craft my work:</p>
-      <p>HTML5 / CSS3 / Sass / JavaScript / React / Node / Next.js / Gatsby / Eslint / RESTful APIs</p>
+      <p>
+        In my day to day I use multiple technologies that provide style and functionality to a web site or web app. Here
+        are the main ones that I use to craft my work:
+      </p>
+      <p>HTML5 / CSS3 / JavaScript / React / Node / Next.js / Gatsby / Eslint / RESTful APIs</p>
     </SkillsDetails>
   </SkillsWrapper>
 );

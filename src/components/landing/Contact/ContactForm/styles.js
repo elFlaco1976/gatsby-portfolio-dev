@@ -5,7 +5,9 @@ export const Error = styled.span`
 `;
 
 export const Center = styled.div`
-  text-align: left;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
 
   h4 {
     font-weight: normal;
