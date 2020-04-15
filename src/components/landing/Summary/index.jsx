@@ -8,8 +8,8 @@ export const Summary = () => (
     <SummaryWrapper>
       <SummaryDetails>
         <p>
-          I'm a front-end web developer. I love technology and how it can help people collaboratebetween them, and
-          promote their organizations and positively impact society, specially through this difficult times.
+          I'm a front-end web developer. I love technology and how it can help people collaborate between them, promote
+          their organizations and positively impact society, specially through this difficult times.
         </p>
         <p>
           If you want to talk about your project, you can contact me <AnchorLink href="#contact">here</AnchorLink>.
