@@ -1,9 +1,9 @@
 import styled from 'styled-components';
 
 export const ExperienceWrapper = styled.div`
-  border-top: 1px solid lightgrey;
-  padding: 2em 0;
+  padding: 3em 0;
   text-align: center;
+  border-bottom: 1px solid lightgrey;
 `;
 
 export const ExperienceHeading = styled.div`

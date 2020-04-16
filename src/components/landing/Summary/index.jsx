@@ -1,20 +1,26 @@
 import React from 'react';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 import { Container, Button } from 'components/common';
-import { Wrapper, SummaryWrapper, SummaryHeading, SummaryDetails } from './styles';
+import { SummaryWrapper, SummaryHeading, SummaryDetails, Center } from './styles';
 
 export const Summary = () => (
-  <Wrapper id="about">
-    <SummaryWrapper>
-      <SummaryDetails>
-        <p>
-          I'm a front-end web developer. I love technology and how it can help people collaborate between them, promote
-          their organizations and positively impact society, specially through this difficult times.
-        </p>
-        <p>
-          If you want to talk about your project, you can contact me <AnchorLink href="#contact">here</AnchorLink>.
-        </p>
-      </SummaryDetails>
-    </SummaryWrapper>
-  </Wrapper>
+  <SummaryWrapper id="about">
+    <SummaryHeading>I'm a front-end web developer</SummaryHeading>
+    <SummaryDetails>
+      <p>
+        With my work and experience I can help you with the development of web projects, from static web sites like
+        personal pages to complex web applications. I can also integrate the ongoing development of a web project, as
+        solo or being part of a team.
+      </p>
+      <p>
+        I love technology, specially how it can help people work together, promote their organizations and positively
+        impact society, specially through this difficult times. Do you have an idea?
+      </p>
+      <Center>
+        <AnchorLink href="#contact">
+          <Button outlined>Lets talk!</Button>
+        </AnchorLink>
+      </Center>
+    </SummaryDetails>
+  </SummaryWrapper>
 );

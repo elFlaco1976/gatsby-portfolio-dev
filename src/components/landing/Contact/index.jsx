@@ -10,8 +10,5 @@ export const Contact = () => (
       <h1>Get in touch</h1>
       <ContactForm />
     </Details>
-    {/*     <Thumbnail>
-      <img src={contact} alt="I’m John and I’m a Backend & Devops engineer!" />
-    </Thumbnail> */}
   </Wrapper>
 );

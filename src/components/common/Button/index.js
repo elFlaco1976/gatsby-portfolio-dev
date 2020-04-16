@@ -23,9 +23,11 @@ export const Button = styled.button`
     background: gray;
   }
 
-  ${({ secondary }) =>
-    secondary &&
+  ${({ outlined }) =>
+    outlined &&
     `
-		background: #001F3F;
+    background: transparent;
+    color: #0074d9;
+    border: solid 1px #0074d9;
 	`}
 `;

@@ -1,8 +1,8 @@
 import styled from 'styled-components';
 
 export const IntroWrapper = styled.div`
-  padding-top: 4rem;
-  padding-bottom: 4rem;
+  padding-top: 10em;
+  padding-bottom: 7.5rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -21,19 +21,19 @@ export const Details = styled.div`
   margin: 0 auto;
 
   h1 {
-    margin-bottom: 1.5rem;
-    font-size: 36pt;
+    font-size: 5rem;
     font-weight: normal;
     text-align: center;
+    margin-bottom: 0;
 
     @media (max-width: 680px) {
-      font-size: 30pt;
+      font-size: 5rem;
     }
   }
 
   p {
     margin-bottom: 1rem;
-    font-size: 1.5rem;
+    font-size: 2.1rem;
     font-weight: normal;
   }
 `;

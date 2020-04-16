@@ -71,7 +71,7 @@ const ContactForm = ({ setFieldValue, isSubmitting, values, errors, touched }) =
       </InputField>
     )}
     <Center>
-      <Button secondary type="submit" disabled={isSubmitting}>
+      <Button type="submit" disabled={isSubmitting}>
         Submit
       </Button>
     </Center>

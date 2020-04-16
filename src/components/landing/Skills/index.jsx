@@ -6,7 +6,7 @@ import { SkillsWrapper, SkillsHeading, SkillsDetails } from './styles';
 
 export const Skills = () => (
   <SkillsWrapper id="skills">
-    <SkillsHeading>Skills</SkillsHeading>
+    <SkillsHeading>My skills</SkillsHeading>
     <SkillsDetails>
       <p>
         In my day to day I use multiple technologies that provide style and functionality to a web site or web app. Here
