@@ -4,10 +4,10 @@ module.exports = {
   author: 'Francisco Collazos',
   url: 'https://www.franciscodev.com',
   legalName: 'Francisco Collazos',
-  defaultDescription: 'I’m Francisco and I’m a web developer!',
+  defaultDescription: "I'm Francisco and I build effective websites",
   socialLinks: {
     github: 'https://github.com/elFlaco1976',
-    linkedin: 'www.linkedin.com/in/francisco-collazos-3692b355',
+    linkedin: 'https://www.linkedin.com/in/francisco-collazos-3692b355',
     twitter: 'https://twitter.com/francis21777247',
   },
   googleAnalyticsID: '',
