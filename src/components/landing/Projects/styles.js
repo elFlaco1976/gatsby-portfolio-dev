@@ -59,3 +59,49 @@ export const Stats = styled.div`
     }
   }
 `;
+
+export const ProjectsContainer = styled.div`
+  padding: 3em 0;
+  text-align: center;
+  border-bottom: 1px solid lightgrey;
+`;
+
+export const ProjectsHeading = styled.div`
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: Montserrat;
+  margin-bottom: 2rem;
+`;
+
+export const ProjectsListContainer = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+`;
+
+export const ProjectCard = styled.div`
+  box-sizing: border-box;
+  width: 400px;
+  padding: 1em;
+  margin: 0 1em;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+
+  @media (max-width: 905px) {
+    &:nth-child(odd) {
+      margin-bottom: 1em;
+    }
+  }
+`;
+
+export const ProjectImage = styled.img`
+  max-width: 100%;
+`;
+
+export const ProjectDetails = styled.div`
+  background: white;
+`;
+
+export const ProjectTitle = styled.h2`
+  text-align: center;
+`;
