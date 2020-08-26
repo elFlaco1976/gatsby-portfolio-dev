@@ -1,4 +1,4 @@
-export * from './Intro';
+export * from './IntroAndHeader';
 export * from './Experience';
 export * from './Contact';
 export * from './Summary';

@@ -1,12 +1,19 @@
 import styled from 'styled-components';
 
+export const ContainerIntroAndHeader = styled.div`
+  background-image: url(${props => props.src});
+  background-size: cover;
+  background-position: top;
+`;
+
 export const IntroWrapper = styled.div`
   padding-top: 10em;
   padding-bottom: 7.5rem;
   display: flex;
+
   align-items: center;
   justify-content: space-between;
-  background-color: #2098d1;
+
   color: #ffffff;
   font-family: Montserrat;
 
