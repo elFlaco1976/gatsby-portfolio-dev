@@ -1,12 +1,9 @@
 import React from 'react';
-import AnchorLink from 'react-anchor-link-smooth-scroll';
-import { Header } from 'components/theme';
-import { Container, Button } from 'components/common';
-import dev from 'assets/illustrations/dev.svg';
-import { Wrapper, IntroWrapper, Details, Thumbnail } from './styles';
+import backgroundHeader from 'assets/images/rohit-raj-_vBGmvQWZnw-unsplash.jpg';
+import { IntroWrapper, Details } from './styles';
 
 export const Intro = () => (
-  <IntroWrapper id="about">
+  <IntroWrapper id="about" src={backgroundHeader}>
     <Details>
       <h1>Francisco Collazos</h1>
       <p>I build effective websites. Let me help you with yours!</p>
