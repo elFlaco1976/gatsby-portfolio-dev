@@ -1,6 +1,17 @@
 import styled from 'styled-components';
 
+export const ProjectOverlay = styled.div`
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 100;
+  background-color: rgba(255, 0, 0, 0.5);
+`;
+
 export const ProjectCard = styled.a`
+  position: relative;
   box-sizing: border-box;
   width: 400px;
   padding: 1em;
