@@ -8,7 +8,7 @@ const projectsData = [
     description:
       'This web app finds information of inspiring social projects from non-profit organizations all around the world, by keyword or country.',
     siteUrl: 'https://goofy-payne-f713f0.netlify.app',
-    gitHubUrl: '',
+    gitHubUrl: 'https://github.com/elFlaco1976/charities-finder',
   },
   {
     title: 'Matching Game',
@@ -16,7 +16,7 @@ const projectsData = [
     description:
       'Training memory is fundamental for our mental health. I had that in mind while developing this matching game.',
     siteUrl: 'https://fervent-ride-9fef59.netlify.app',
-    gitHubUrl: '',
+    gitHubUrl: 'https://github.com/elFlaco1976/card-memory-game',
   },
 ];
 

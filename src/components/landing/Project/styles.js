@@ -1,6 +1,31 @@
 import styled from 'styled-components';
 
-export const ProjectCard = styled.a`
+export const ProjectOverlay = styled.div`
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 100;
+  background-color: rgba(255, 0, 0, 0.5);
+`;
+
+export const ProjectOverlayIcon = styled.a`
+  color: white;
+  margin: 0 2em;
+  border-radius: 5px;
+
+  img {
+    width: 4em;
+    fill: white;
+  }
+`;
+
+export const ProjectCard = styled.div`
+  position: relative;
   box-sizing: border-box;
   width: 400px;
   padding: 1em;
