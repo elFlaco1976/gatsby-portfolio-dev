@@ -7,7 +7,7 @@ module.exports = {
   defaultDescription: "I'm Francisco and I build effective websites",
   socialLinks: {
     github: 'https://github.com/elFlaco1976',
-    linkedin: 'https://www.linkedin.com/in/francisco-collazos-3692b355',
+    linkedin: 'https://www.linkedin.com/in/francisco-collazos',
     twitter: 'https://twitter.com/francis21777247',
   },
   googleAnalyticsID: '',

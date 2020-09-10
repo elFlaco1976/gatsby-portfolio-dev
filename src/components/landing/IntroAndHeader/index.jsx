@@ -1,5 +1,5 @@
 import React from 'react';
-import backgroundHeader from 'assets/images/rohit-raj-_vBGmvQWZnw-unsplash.jpg';
+import backgroundHeader from 'assets/images/rohit-raj-_vBGmvQWZnw-unsplash-crop-2.jpg';
 import { Header } from 'components/theme';
 import { IntroWrapper, Details, ContainerIntroAndHeader } from './styles';
 

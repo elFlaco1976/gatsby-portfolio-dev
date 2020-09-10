@@ -34,7 +34,7 @@ export const Details = styled.div`
     margin-bottom: 0;
 
     @media (max-width: 680px) {
-      font-size: 5rem;
+      font-size: 4rem;
     }
   }
 
@@ -42,5 +42,9 @@ export const Details = styled.div`
     margin-bottom: 1rem;
     font-size: 2.1rem;
     font-weight: normal;
+
+    @media (max-width: 680px) {
+      font-size: 1.68rem;
+    }
   }
 `;
