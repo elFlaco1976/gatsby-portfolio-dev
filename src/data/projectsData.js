@@ -1,5 +1,5 @@
-import imgCharities from 'assets/images/charities.png';
-import imgMatching from 'assets/images/matching.png';
+import imgCharities from 'assets/images/charities.jpg';
+import imgMatching from 'assets/images/matching.jpg';
 
 const projectsData = [
   {
